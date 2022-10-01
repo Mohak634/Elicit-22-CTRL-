@@ -1,0 +1,523 @@
+
+
+@font-face
+{
+    font-family: Montserrat;
+    src: url(Assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    background-color: #eff1f8;
+    font-family: ProductSans;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    box-shadow: #00000040 0 4px 12px;
+    background-color: #e2e2e2;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: auto;
+    order: 1;
+
+}
+
+nav {
+    background-color: #e2e2e2;
+    margin-top: 115px;
+    display: flex;
+    width: 100vw;
+    height: 5vw;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-bottom: 1px solid rgba(198, 198, 198, 1);
+    font-family: Montserrat;
+    src: url(Assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+
+}
+
+.bodytext {
+    font-family:Montserrat;
+    src: url(Assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+    z-index: 51;
+    color: white;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 160px;
+    padding: 0;
+    
+}
+
+.bodytext {
+    position: absolute;
+    text-align: center;
+}
+
+.reftext {
+    font-family:Montserrat;
+    src: url(Assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+    z-index: 51;
+    color: white;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 0;
+    padding: 0;
+    
+}
+
+.reftext {
+    position: absolute;
+}
+
+.videocontainer {
+    margin-top: 150px;
+    margin-left: 25px;
+    
+}
+.videocontainer {
+    position: absolute;
+    z-index: 60;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.articles {
+    z-index: 60;
+    position: absolute;
+    margin-left: 13vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}
+
+#art1 * {
+    height:219.5px;
+    width: 362px;
+
+}
+
+#vid2 {
+    margin-left: 350px;
+}
+
+#vid3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+#mockup {
+    height: 416.5px;
+    width: 905.25px;
+}
+
+.mockupbox {
+    margin-left: 350px;
+    margin-right: 250px;
+    margin-top: 350px;
+}
+.mockupbox {
+    z-index: 75;
+    position: absolute;
+}
+
+
+
+.black{
+    background-color: black;
+    z-index: 50;
+    height: 24.5vw;
+    width: 100vw;
+    opacity: 30%;
+    position: absolute;
+}
+
+.rainbows * {
+    display: flex;
+    flex-direction: column;
+    height: 3.5vw;
+    
+}
+
+.red {
+    background-color: #ff0000;
+    order: 1;
+
+}
+
+
+
+.orange {
+    background-color: orange;
+    order: 2;
+}
+
+
+
+.yellow {
+    background-color: yellow;
+    order: 3;
+}
+
+
+
+.green {
+    background-color: #39b54a;
+    order: 4;
+}
+
+
+
+.blue {
+    background-color: #0071bc;
+    order: 5;
+}
+
+
+.indigo {
+    background-color: #4b0082;
+    order: 6;
+}
+
+.violet {
+    background-color:#9400d3;
+}
+
+header ul
+{
+    width: 100vw;
+    height: 110vh;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-left: auto;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 200vh;
+    padding: 16vh 10px;
+    background-color: #e2e2e2;
+}
+
+header ul.open
+{
+    top: -5vh;
+}
+
+header a
+{
+    color: black;
+    text-decoration: none;
+}
+
+header li
+{
+    margin-bottom: 12px;
+    
+}
+
+header img
+{
+  width: 300px;
+  height: 97.44px;
+}
+
+main
+{
+    position: relative;
+    top: 12vh;
+}
+
+main#background
+{
+    height: 88vh;
+    background-image: url(res/dps.jpg);
+    background-size: cover;
+    position: relative;
+    top: 12vh;
+}
+
+#coming-soon
+{
+    font-family: Panama, sans-serif;
+    color:white;
+}
+
+#badge
+{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#badge img
+{
+    width: 80vw;
+}
+
+#coming-soon
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 88vh;
+}
+
+#coming-soon h1
+{
+    margin-top: 20px;
+    font-weight: normal;
+    font-family: ProductSans, sans-serif;
+    text-align: center;
+}
+
+#title
+{
+    background-color: #11192A;
+    width: 100vw;
+    height: 55vh;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: ProductSansBold, sans-serif;
+    font-weight: normal;
+    padding: 25vh 0;
+    font-size: 2rem;
+}
+
+section
+{
+    padding: 8px 10px;
+}
+
+#dates
+{
+    margin-bottom: 30px;
+}
+
+#dates th
+{
+    text-align: left;
+    font-weight: normal;
+    font-family: ProductSansBold, sans-serif;
+    padding-right: 30px;
+}
+
+#dates th,td
+{
+    font-size: 1.1rem;
+}
+
+#dates tr
+{
+    height: 28px
+}
+
+#documents
+{
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu-toggle
+{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    margin-right: 20px;
+    margin-left: auto;
+    background-color: black;
+}
+
+#menu-toggle::after
+{
+    position: absolute;
+    bottom: -5px; 
+    width: 30px;
+    height: 2px;
+    content: " ";
+    background-color: black;
+}
+
+#menu-toggle::before
+{
+    content: " ";
+    position: absolute;
+    top: -5px;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+}
+
+.doc
+{
+    margin: 12px;
+    overflow: hidden;
+    background-color: white;
+    width: 145px;
+    height: 145px;
+    border-radius: 8px;
+    box-shadow: #00000040 2px 2px 16px;
+    transition-duration: 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.doc img
+{
+    width: 30%;
+}
+
+.doc p
+{
+    text-overflow: ellipsis;
+}
+
+.doc img, .doc p
+{
+    position: relative;
+    top: 12px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.doc:hover
+{
+    background-color: #f3f2f2;
+    cursor: pointer;
+}
+
+h1.section-head
+{
+    font-family: ProductSansBold, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    margin-left: 7vw;
+}
+
+@media only screen and (min-width: 850px)
+{
+    header
+    {
+        height: 110px;
+        justify-content: flex-start;
+        padding: 0 100px;
+        justify-content: center;
+    }
+
+    h1.section-head
+    {
+        margin-top: 30px;
+        margin-bottom: -10px;
+        margin-left: 187px;
+    }
+
+    header ul
+    {
+        display: flex;
+        position: static;
+        width: unset;
+        height: unset;
+        flex-direction: row;
+        padding: unset;
+    }
+
+    header li
+    {
+        margin-left: 18px;
+        margin-bottom: unset;
+        padding-top: 35px;
+        font-family: Montserrat;
+        src: url(Assets/Fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+        background-color: #e2e2e2;
+        font-size: 30px;
+    }
+    main
+    {
+        top: 110px;
+    }
+
+    #badge img
+    {
+        width: 40vw;
+    }
+
+    #coming-soon h1
+    {
+        margin-top: 40px;
+    }
+    
+    #menu-toggle
+    {
+        display: none;
+    }
+
+    section
+    {
+        padding: 8px 30px;
+    }
+
+    #documents
+    {
+        margin-top: 40px;
+        padding: 0 100px;
+    }
+
+    .doc
+    {
+        margin: 30px;
+        width: 240px;
+        height: 240px;
+    }
+    
+    .doc p
+    {
+        margin-top:15px;
+        font-size: 1.2rem;
+    }
+
+    .doc img
+    {
+        top: 0;
+    }
+}
